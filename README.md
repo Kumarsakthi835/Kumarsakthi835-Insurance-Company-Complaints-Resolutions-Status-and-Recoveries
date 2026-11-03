@@ -287,17 +287,24 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 |Histogram – Resolution Days | Mean 42.06 days; max 880 days |
 
+<img width="590" height="305" alt="image" src="https://github.com/user-attachments/assets/acd9b639-bcac-4e40-8858-9626ff2a5321" />
 
 |Count Plot – Status | 486 Closed vs 3 Open complaints |
+
+<img width="647" height="320" alt="image" src="https://github.com/user-attachments/assets/41cfd2cf-452d-4d89-964c-b270b05f7324" />
 
 
 |Box Plot – Coverage | Individual Private Passenger slowest at 49.43 days |
 
+<img width="659" height="317" alt="image" src="https://github.com/user-attachments/assets/38543c19-9279-49be-b7f2-ed460603f026" />
 
 |Heatmap – Correlation | Resolution Days and Recovery are independent |
 
+<img width="524" height="247" alt="image" src="https://github.com/user-attachments/assets/0a089c01-4cf9-4435-b259-112d911c591f" />
 
 |Bar – Avg Days by Reason | Marketing & Sales slowest at 50.50 days avg |
+
+<img width="584" height="288" alt="image" src="https://github.com/user-attachments/assets/acdb98ae-50ac-459a-906d-565725d35d62" />
 
 ---
 
@@ -305,7 +312,9 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 | Screenshot | Description |
 |------------|-------------|
-| ![S12](screenshots/s12_insights.png) | Key insights summary — all 8 metrics printed |
+|Key insights summary — all 8 metrics printed |
+
+<img width="611" height="332" alt="image" src="https://github.com/user-attachments/assets/443a3590-9d7b-4854-b383-a11acf671366" />
 
 ---
 
