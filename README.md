@@ -1,13 +1,13 @@
-📁 Project Title
-🛡️ Insurance Company Complaint Pattern & Resolution Analysis Using Python
+📁 **Project Title**
+🛡️ **Insurance Company Complaint Pattern & Resolution Analysis Using Python (USA 2021–2026)**
 
-📌 1. Project Overview
+📌** **1. Project Overview****
 
 This project focuses on analyzing an insurance company complaints dataset using Python to extract meaningful insights. The analysis includes data cleaning, exploratory data analysis (EDA), statistical analysis, and visualization to understand complaint patterns, resolution trends, and recovery behavior across the United States.
 
 The project aims to transform raw complaint data into useful information that supports better decision-making for insurance operations and customer service improvements.
 
-🗂️ 2. Data Source
+🗂️ **2. Data Source**
 
 📄 Dataset Name: Insurance Company Complaints, Resolutions, Status, and Recoveries
 
@@ -22,13 +22,13 @@ The project aims to transform raw complaint data into useful information that su
 
 The dataset contains information related to insurance complaints filed between 2021 and 2026, including complaint reasons, coverage types, resolution outcomes, and financial recovery amounts across the United States.
 
-❓ 3. Problem Statement
+❓ **3. Problem Statement**
 
 Insurance companies receive thousands of complaints every year but often struggle to identify patterns in complaint types, resolution speed, and recovery rates. Without proper analysis, it is difficult to understand which complaint categories take longer to resolve and what factors influence recovery outcomes.
 
 This project aims to analyze the insurance complaint dataset and identify key factors influencing complaint resolution patterns and business recovery performance.
 
-🎯 4. Objectives
+🎯 **4. Objectives**
 
 ✅ To understand the dataset structure and complaint attributes
 ✅ To clean and prepare the data for analysis
@@ -39,7 +39,7 @@ This project aims to analyze the insurance complaint dataset and identify key fa
 ✅ To create meaningful visualizations
 ✅ To generate actionable business insights
 
-🧾 5. Attribute (Column / Feature) Details
+🧾 **5. Attribute (Column / Feature) Details**
 
 Attribute Name	Description
 File No.	Unique identifier for each complaint
@@ -55,20 +55,25 @@ Conclusion	Final resolution outcome
 Status	Current status of the complaint
 Recovery	Financial recovery amount (in USD)
 
-🛠️ 6. Tools & Technologies
+🛠️ **6. Tools & Technologies**
 
 🐍 Python
+
 🐼 Pandas
+
 🔢 NumPy
+
 📊 Matplotlib
+
 🎨 Seaborn
+
 ☁️ Google Colab
 
-🧹 7. Data Pre-Processing and Feature Engineering
+🧹 **7. Data Pre-Processing and Feature Engineering**
 
 The dataset was prepared for analysis using data preprocessing techniques.
 
-🔍 Data Cleaning Steps
+🔍 **Data Cleaning Steps**
 
 🔎 Checked data types of all columns
 ⚠️ Identified missing values (513 null values across 6 columns)
@@ -78,7 +83,7 @@ The dataset was prepared for analysis using data preprocessing techniques.
 📅 Converted date columns (Opened, Closed) to datetime format
 💰 Cleaned Recovery column by removing $ and , symbols and converting to numeric
 
-🔧 Missing Value Treatment:
+🔧 **Missing Value Treatment:**
 
 Column	Method Used
 SubCoverage	Filled with 'Not Specified'
