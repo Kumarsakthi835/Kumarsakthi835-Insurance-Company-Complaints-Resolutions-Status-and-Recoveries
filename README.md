@@ -104,7 +104,7 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ## 📝 Project Stages
 
-### ✅ Stage 1 – Data Loading & Initial EDA
+### ✅Data Loading & Initial EDA
 
 - Imported all required libraries (Pandas, NumPy, Matplotlib, Seaborn)
 - Loaded dataset from GitHub using `pd.read_csv()`
@@ -116,7 +116,7 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### ✅ Stage 2 – Data Cleaning
+### ✅Data Cleaning
 
 - **Duplicates:** Confirmed 0 duplicate rows — no rows dropped
 - **Missing Values Handled (513 total):**
@@ -135,7 +135,7 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### ✅ Stage 2 – Data Transformation & Feature Engineering
+### ✅Data Transformation & Feature Engineering
 
 - Converted `Opened` and `Closed` columns to **datetime** format
 - Calculated `Resolution_Days` = Closed date − Opened date
@@ -147,7 +147,7 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### ✅ Stage 3 – Data Visualization (10 Charts)
+### ✅Data Visualization (10 Charts)
 
 | # | Chart Type | Library | Topic |
 |---|------------|---------|-------|
@@ -164,7 +164,7 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### ✅ Stage 4 – Key Insights & Conclusion
+### ✅Key Insights & Conclusion
 
 - Generated 8 business insights from visualizations
 - Identified key complaint drivers and resolution patterns
@@ -198,26 +198,27 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 ### Data Loading & Initial EDA
 
 | Screenshot | Description |
-|------------|-------------|
-|| Dataset loaded from GitHub — Shape: (500, 12) |
+
+
+| Dataset loaded from GitHub — Shape: (500, 12) |
 
 <img width="675" height="81" alt="image" src="https://github.com/user-attachments/assets/3a0ee5fa-94dc-428d-9439-9e49e0965662" />
 
 
-| | First 5 rows using df.head() |
+| First 5 rows using df.head() |
 
 <img width="875" height="239" alt="image" src="https://github.com/user-attachments/assets/f07ad8cd-ac59-47c3-9717-3c636ca126e6" />
 
 
-|| Column names, data types using df.info() |
+| Column names, data types using df.info() |
 
 <img width="875" height="241" alt="image" src="https://github.com/user-attachments/assets/3de0b765-98c3-4f48-aa40-b7ab8dff6598" />
 
-|| Missing values — 513 total across 6 columns |
+| Missing values — 513 total across 6 columns |
 
 <img width="713" height="299" alt="image" src="https://github.com/user-attachments/assets/fd1f5126-e770-4b6c-a418-aef28c824d25" />
 
-| | Unique values per column using df.nunique() |
+| Unique values per column using df.nunique() |
 
 <img width="620" height="151" alt="image" src="https://github.com/user-attachments/assets/57967618-99ed-4575-b425-c7f20b63a3c9" />
 
@@ -227,31 +228,32 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 ### Data Cleaning & Transformation
 
 | Screenshot | Description |
-|------------|-------------|
-| | Duplicate check — 0 duplicates found |
+
+
+| Duplicate check — 0 duplicates found |
 
 <img width="665" height="52" alt="image" src="https://github.com/user-attachments/assets/d963595a-fb12-4a01-99e4-2ec398a06f12" />
 
 
-| | Missing values before handling — 513 total |
+| Missing values before handling — 513 total |
 
 <img width="706" height="165" alt="image" src="https://github.com/user-attachments/assets/8583e9ca-bd34-44e7-81cf-2e0256e24084" />
 
 
-| | Missing values after handling — 0 remaining |
+| Missing values after handling — 0 remaining |
 
 <img width="494" height="186" alt="image" src="https://github.com/user-attachments/assets/e4a2d13b-449b-41a9-812e-5c8a821faf18" />
 
-| | Data transformation — Shape updated to (500, 16) |
+| Data transformation — Shape updated to (500, 16) |
 
 <img width="677" height="137" alt="image" src="https://github.com/user-attachments/assets/cdc50682-768c-42ad-a21f-bd90e7b1ce8e" />
 
 
-| | Feature engineering — Final shape: (500, 20) |
+| Feature engineering — Final shape: (500, 20) |
 
 <img width="896" height="271" alt="image" src="https://github.com/user-attachments/assets/36c7b8ff-1301-49e8-b77b-ea16e57fc160" />
 
-| | Final EDA — All columns, data types confirmed |
+| Final EDA — All columns, data types confirmed |
 
 <img width="570" height="311" alt="image" src="https://github.com/user-attachments/assets/87d4f62d-6ee6-4501-bfb2-8c3c57fc0c5d" />
 
@@ -308,11 +310,12 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### Stage 4 – Key Insights
+###  Key Insights
 
 | Screenshot | Description |
-|------------|-------------|
-|Key insights summary — all 8 metrics printed |
+
+
+| Key insights summary — all 8 metrics printed |
 
 <img width="611" height="332" alt="image" src="https://github.com/user-attachments/assets/443a3590-9d7b-4854-b383-a11acf671366" />
 
