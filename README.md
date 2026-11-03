@@ -1,12 +1,20 @@
-            PROJECT TITLE
-🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python (USA 2021–2026)
+                                 PROJECT TITLE
+  🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python (USA 2021–2026)
+
 Python 3.x
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Google Colab
+
 Status: Completed ✅
+
 📌 **1. Project Overview**
 
 This project focuses on analyzing an insurance company complaints dataset using Python to extract meaningful insights. The analysis includes data cleaning, exploratory data analysis (EDA), statistical analysis, and visualization to understand complaint patterns, resolution trends, and recovery behavior.
