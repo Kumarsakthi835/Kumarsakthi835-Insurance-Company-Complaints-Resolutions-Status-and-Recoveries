@@ -10,10 +10,15 @@ The project aims to transform raw complaint data into useful information that su
 🗂️ 2. Data Source
 
 📄 Dataset Name: Insurance Company Complaints, Resolutions, Status, and Recoveries
+
 🌐 Source: U.S. Government / Open Data Portal
+
 📋 File Type: CSV
+
 🔢 Number of Records: 500
+
 📊 Number of Attributes: 12
+
 
 The dataset contains information related to insurance complaints filed between 2021 and 2026, including complaint reasons, coverage types, resolution outcomes, and financial recovery amounts across the United States.
 
