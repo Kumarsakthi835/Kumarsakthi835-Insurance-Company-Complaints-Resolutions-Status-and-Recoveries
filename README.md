@@ -31,12 +31,19 @@ This project aims to analyze the insurance complaint dataset and identify key fa
 🎯 **4. Objectives**
 
 ✅ To understand the dataset structure and complaint attributes
+
 ✅ To clean and prepare the data for analysis
+
 ✅ To handle missing values and duplicates
+
 ✅ To perform Exploratory Data Analysis (EDA)
+
 ✅ To engineer new features such as Resolution Days and Recovery Status
+
 ✅ To identify complaint patterns and resolution trends
+
 ✅ To create meaningful visualizations
+
 ✅ To generate actionable business insights
 
 🧾 **5. Attribute (Column / Feature) Details**
@@ -76,67 +83,94 @@ The dataset was prepared for analysis using data preprocessing techniques.
 🔍 **Data Cleaning Steps**
 
 🔎 Checked data types of all columns
+
 ⚠️ Identified missing values (513 null values across 6 columns)
+
 🛠️ Handled null values using mode imputation and default value filling
+
 🗑️ Removed duplicate records
+
 ✏️ Corrected inconsistent data formats
+
 📅 Converted date columns (Opened, Closed) to datetime format
+
 💰 Cleaned Recovery column by removing $ and , symbols and converting to numeric
 
 🔧 **Missing Value Treatment:**
 
 Column	Method Used
+
 SubCoverage	Filled with 'Not Specified'
+
 Coverage	Filled with mode value
+
 Reason	Filled with mode value
+
 SubReason	Filled with mode value
+
 Disposition	Filled with 'Unknown'
+
 Conclusion	Filled with 'Unknown'
 Closed	Filled with Opened date
 
-⚙️ Feature Engineering
 
-New features were created to improve analysis:
+⚙️ **Feature Engineering**
+
+**New features were created to improve analysis:**
 
 📆 Resolution_Days – Calculated from (Closed – Opened) date difference
+
 🏷️ Resolution_Category – Fast (≤15 days), Medium (16–30 days), Slow (>30 days)
+
 💸 Recovery_Status – 'Recovered' if Recovery > 0, else 'Not Recovered'
+
 🗓️ Year, Month, Quarter – Extracted from Opened date for time-based analysis
+
 🕰️ Complaint_Age – Old (2021–22), Recent (2023–24), Latest (2025–26)
+
 🔢 Is_Recovered – Binary flag (1 = Recovered, 0 = Not Recovered)
 
 📈 8. Analysis and Visualizations
 
 The dataset was analyzed using Exploratory Data Analysis techniques to understand complaint patterns and relationships.
 
-🔬 9. Exploratory Data Analysis (EDA)
+🔬 **9. Exploratory Data Analysis (EDA)
 
-Initial inspection included:
+Initial inspection included:**
 
 📐 Data frame structure verification (shape, dtypes)
+
 📊 Statistical summary of numerical columns
+
 🔍 Null value verification
+
 🔄 Duplicate record validation
+
 🗃️ Unique value counts for categorical columns
 
 EDA helped in understanding the distribution and characteristics of the complaint data.
 
-📐 10. Statistical Analysis
+📐 **10. Statistical Analysis**
 
 Statistical measures were used to summarize the dataset.
 
 Measures included:
 
 ➕ Mean
+
 📍 Median
+
 🔁 Mode
+
 ⬇️ Minimum value
+
 ⬆️ Maximum value
+
 📉 Standard deviation
 
 These measures helped understand the central tendency and variability of Resolution Days and Recovery amounts.
 
-📊 11. Data Visualization
+📊 **11. Data Visualization**
 
 Visualization techniques were used to represent complaint data graphically and make patterns easier to understand.
 
