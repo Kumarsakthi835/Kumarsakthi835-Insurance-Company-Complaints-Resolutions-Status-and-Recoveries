@@ -261,16 +261,16 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 | Screenshot | Chart | Key Finding |
 |------------|-------|-------------|
-| ![V1](screenshots/v1_top_companies.png) | Bar – Top 10 Companies | Anthem Health Plans leads with 121 complaints (24.2%) |
-| ![V2](screenshots/v2_coverage_pie.png) | Pie – Coverage Types | A & H dominates at 29.4% of complaints |
-| ![V3](screenshots/v3_reasons.png) | Bar – Complaint Reasons | Claim Handling = 75.4% of all complaints |
-| ![V4](screenshots/v4_status_pie.png) | Pie – Status | 97.2% complaints are Closed |
-| ![V5](screenshots/v5_yearly_trend.png) | Line – Yearly Trend | Complaints grew from 10 (2021) to 131 (2025) |
-| ![V6](screenshots/v6_resolution_hist.png) | Histogram – Resolution Days | Mean 42.06 days; max 880 days |
-| ![V7](screenshots/v7_status_count.png) | Count Plot – Status | 486 Closed vs 3 Open complaints |
-| ![V8](screenshots/v8_boxplot.png) | Box Plot – Coverage | Individual Private Passenger slowest at 49.43 days |
-| ![V9](screenshots/v9_heatmap.png) | Heatmap – Correlation | Resolution Days and Recovery are independent |
-| ![V10](screenshots/v10_avg_days.png) | Bar – Avg Days by Reason | Marketing & Sales slowest at 50.50 days avg |
+|Bar – Top 10 Companies | Anthem Health Plans leads with 121 complaints (24.2%) |
+|Pie – Coverage Types | A & H dominates at 29.4% of complaints |
+|Bar – Complaint Reasons | Claim Handling = 75.4% of all complaints |
+|Pie – Status | 97.2% complaints are Closed |
+|Line – Yearly Trend | Complaints grew from 10 (2021) to 131 (2025) |
+|Histogram – Resolution Days | Mean 42.06 days; max 880 days |
+|Count Plot – Status | 486 Closed vs 3 Open complaints |
+|Box Plot – Coverage | Individual Private Passenger slowest at 49.43 days |
+|Heatmap – Correlation | Resolution Days and Recovery are independent |
+|Bar – Avg Days by Reason | Marketing & Sales slowest at 50.50 days avg |
 
 ---
 
