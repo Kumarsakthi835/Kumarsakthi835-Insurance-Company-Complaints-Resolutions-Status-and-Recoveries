@@ -130,11 +130,11 @@ Closed	Filled with Opened date
 
 🔢 Is_Recovered – Binary flag (1 = Recovered, 0 = Not Recovered)
 
-📈 8. Analysis and Visualizations
+📈 **8. Analysis and Visualizations**
 
 The dataset was analyzed using Exploratory Data Analysis techniques to understand complaint patterns and relationships.
 
-🔬 **9. Exploratory Data Analysis (EDA)
+🔬 ****9. Exploratory Data Analysis (EDA)**
 
 Initial inspection included:**
 
@@ -174,35 +174,52 @@ These measures helped understand the central tendency and variability of Resolut
 
 Visualization techniques were used to represent complaint data graphically and make patterns easier to understand.
 
-📌 1. Univariate Analysis
+📌 **1. Univariate Analysis**
 
 Univariate analysis was performed to analyze one variable at a time.
 
-Analysis Performed:
+**Analysis Performed:**
 
-📊 Visualization 1 – Top 10 Insurance Complaint Reasons
+📊 **Visualization 1 – Top 10 Insurance Complaint Reasons**
 📷
 [Screenshot: Bar Chart – Top 10 Insurance Complaint Reasons]
 🎯 Objective: To identify the most frequently occurring complaint reasons in insurance filings.
+
 📊 Visualization: Horizontal bar chart showing top 10 complaint reasons sorted by frequency count.
+
 🔍 Interpretation: "Claim Handling" and "Delays" are the most common complaint reasons, indicating customers are most dissatisfied with how their claims are processed.
+
 💡 Key Insight: Over 35% of complaints are related to claim handling issues alone.
+
 💼 Business Insight: Insurance companies should prioritize improving claim processing speed and communication to reduce the highest complaint categories.
-🛡️ Visualization 2 – Coverage Type Distribution
+
+
+🛡️** Visualization 2 – Coverage Type Distribution**
 📷
 [Screenshot: Bar Chart – Insurance Coverage Type Distribution]
 🎯 Objective: To understand which insurance coverage types receive the most complaints.
+
 📊 Visualization: Vertical bar chart showing complaint counts by coverage type.
+
 🔍 Interpretation: Accident and Health (A/H) coverage generates the highest number of complaints, followed by Auto and Property insurance.
+
 💡 Key Insight: A/H coverage accounts for the majority of total complaints in the dataset.
+
 💼 Business Insight: Companies offering A/H coverage should invest in better claim handling procedures to reduce complaint volumes.
-⏱️ Visualization 3 – Complaint Resolution Category Distribution
+
+
+⏱️** Visualization 3 – Complaint Resolution Category Distribution**
 📷
 [Screenshot: Pie Chart – Complaint Resolution Speed Distribution]
+
 🎯 Objective: To understand how quickly complaints are being resolved across the dataset.
+
 📊 Visualization: Pie chart showing proportion of Fast, Medium, and Slow resolution categories.
+
 🔍 Interpretation: A significant portion of complaints fall under the "Slow" category, indicating many complaints take more than 30 days to close.
+
 💡 Key Insight: Less than 30% of complaints are resolved within 15 days (Fast category).
+
 💼 Business Insight: Companies should target reducing slow resolutions by setting internal SLAs and escalation procedures.
 
 📌 2. Bivariate Analysis
@@ -214,26 +231,44 @@ Analysis Performed:
 📅 Visualization 4 – Complaint Volume by Year
 📷
 [Screenshot: Line Chart – Complaint Volume Trend by Year (2021–2026)]
+
 🎯 Objective: To analyze how the number of complaints has changed over the years.
+
 📊 Visualization: Line chart showing yearly complaint count trends from 2021 to 2026.
+
 🔍 Interpretation: Complaint volumes show a rising trend from 2021 to 2024 with a peak in recent years, reflecting increasing customer dissatisfaction over time.
+
 💡 Key Insight: Complaints increased year-over-year between 2021 and 2024.
+
 💼 Business Insight: Proactive intervention in complaint-heavy years can help companies reverse negative trends and improve customer retention.
-📉 Visualization 5 – Resolution Days Distribution
+
+📉 **Visualization 5 – Resolution Days Distribution**
 📷
 [Screenshot: Histogram – Distribution of Resolution Days]
+
 🎯 Objective: To understand the distribution of time taken to resolve complaints.
+
 📊 Visualization: Histogram showing the frequency of resolution day ranges.
+
 🔍 Interpretation: Most complaints are resolved within 30–60 days. However, outliers exceeding 180 days indicate systemic delays in certain cases.
+
 💡 Key Insight: The average resolution time is approximately 45–60 days, which is above the ideal target.
+
 💼 Business Insight: Companies should aim to reduce average resolution days to below 30 by streamlining internal review processes.
-💰 Visualization 6 – Recovery Amount by Coverage Type
+
+
+💰 **Visualization 6 – Recovery Amount by Coverage Type**
 📷
 [Screenshot: Box Plot – Recovery Amount by Coverage Type]
+
 🎯 Objective: To compare financial recovery amounts across different coverage types.
+
 📊 Visualization: Box plot showing recovery amount spread for each coverage category.
+
 🔍 Interpretation: Auto and Property coverage show higher median recovery amounts compared to A/H. Significant outliers indicate some cases with very large recoveries.
+
 💡 Key Insight: Property-related complaints tend to yield the highest recovery amounts.
+
 💼 Business Insight: Higher recovery amounts in certain coverage types suggest greater financial risk and should be monitored closely.
 
 📌 3. Multivariate Analysis
@@ -242,101 +277,142 @@ Multivariate analysis was used to analyze relationships among multiple variables
 
 Analysis Performed:
 
-⚖️ Visualization 7 – Complaint Disposition vs Resolution Speed
+⚖️ **Visualization 7 – Complaint Disposition vs Resolution Speed**
 📷
 [Screenshot: Grouped Bar Chart – Complaint Disposition vs Resolution Category]
+
 🎯 Objective: To understand how the complaint handling method affects resolution speed.
+
 📊 Visualization: Grouped bar chart comparing disposition types (Upheld, Denied, Withdrawn) against resolution categories.
+
 🔍 Interpretation: Complaints that were "Upheld" tend to have longer resolution times compared to "Withdrawn" complaints. "Denied" cases are resolved faster on average.
+
 💡 Key Insight: Upheld complaints require more review time, contributing to slow resolution rates.
 💼 Business Insight: Insurers should create fast-track processes for cases likely to be upheld to improve customer satisfaction.
-💹 Visualization 8 – Recovery Status by Coverage Type
+💹 **Visualization 8 – Recovery Status by Coverage Type**
 📷
 [Screenshot: Stacked Bar Chart – Recovery Status by Coverage Type]
+
 🎯 Objective: To analyze which coverage types have higher financial recovery rates.
+
 📊 Visualization: Stacked bar chart showing Recovered vs Not Recovered counts for each coverage type.
+
 🔍 Interpretation: Property and Auto coverage types show relatively higher recovery rates, while Life and A/H coverage show lower recovery percentages.
+
 💡 Key Insight: Only about 40% of complaints across all coverage types result in financial recovery.
+
 💼 Business Insight: Improving recovery rates in low-performing coverage categories can significantly reduce financial losses for insurance companies.
-🗓️ Visualization 9 – Complaint Count by Quarter
+
+
+🗓️ **Visualization 9 – Complaint Count by Quarter**
 📷
 [Screenshot: Bar Chart – Complaint Count by Quarter (Q1–Q4)]
+
 🎯 Objective: To identify seasonal patterns in complaint filing behavior.
+
 📊 Visualization: Bar chart showing total complaints filed in Q1, Q2, Q3, and Q4.
+
 🔍 Interpretation: Q1 and Q3 show the highest complaint volumes, suggesting seasonal peaks in customer dissatisfaction. Q4 has relatively fewer complaints.
+
 💡 Key Insight: Complaint volumes peak in Q1 (January–March) and Q3 (July–September).
+
 💼 Business Insight: Companies should increase support staff and response capacity during Q1 and Q3 to handle peak complaint periods effectively.
-🔥 Visualization 10 – Correlation Heatmap
+
+🔥** Visualization 10 – Correlation Heatmap**
 📷
 [Screenshot: Heatmap – Correlation Between Numerical Features]
+
 🎯 Objective: To identify statistical relationships between numerical variables in the dataset.
+
 📊 Visualization: Heatmap showing correlation coefficients between Resolution_Days, Recovery, Is_Recovered, and other numeric features.
+
 🔍 Interpretation: Recovery amount shows moderate positive correlation with Is_Recovered. Resolution_Days shows minimal correlation with recovery, indicating resolution speed does not directly affect recovery outcome.
+
 💡 Key Insight: Recovery amount and recovery status are strongly correlated, as expected.
+
 💼 Business Insight: Focusing on complaint type and coverage rather than speed alone can better predict whether a financial recovery will occur.
 
-📝 12. Summary of Findings
+📝 **12. Summary of Findings**
 
 🔴 Majority of complaints are related to Claim Handling and Delays
+
 🏥 Accident & Health (A/H) coverage has the highest complaint volume
+
 ⏳ Most complaints take more than 30 days to resolve (Slow category)
+
 📈 Complaint volumes have increased year-over-year from 2021 to 2024
+
 💰 Property and Auto coverage types yield the highest recovery amounts
+
 📉 Only about 40% of complaints result in any financial recovery
+
 📅 Q1 and Q3 are peak periods for complaint filings
+
 ⚖️ Upheld complaints take significantly longer to resolve than denied ones
 
-🔎 13. Types of Analysis
+🔎 **13. Types of Analysis**
 
-📋 1. Descriptive Analysis
+📋 **1. Descriptive Analysis**
 
 Descriptive analysis summarizes historical complaint data.
 
-Examples:
+**Examples:**
 
 📊 Total complaint count by year and quarter
+
 ⏱️ Average resolution days by coverage type
+
 🗃️ Distribution of complaint reasons and coverage types
 
-🔍 2. Diagnostic Analysis
+🔍 **2. Diagnostic Analysis**
 
 Diagnostic analysis explains why certain patterns occur.
 
 Examples:
 
 ❓ Reasons for higher complaint volumes in A/H coverage
+
 ⚠️ Factors contributing to slow resolution categories
+
 📉 Why certain coverage types have lower recovery rates
 
-🔮 3. Predictive Analysis
+🔮 **3. Predictive Analysis**
 
 Predictive analysis helps forecast future outcomes.
 
-Examples:
+**Examples:**
 
 📈 Predicting complaint volume for upcoming quarters
+
 ⏳ Estimating resolution time based on complaint type
+
 💰 Forecasting financial recovery based on coverage category
 
-💡 4. Prescriptive Analysis
+💡**4. Prescriptive Analysis**
 
 Prescriptive analysis suggests actions based on insights.
 
-Examples:
+**Examples:**
 
 🚀 Offering faster resolution tracks for high-value complaints
+
 🛠️ Improving claim handling processes in A/H coverage
+
 🎯 Targeting complaint categories with lowest recovery rates for policy review
 
-🚀 14. Future Enhancements and Suggestions
+🚀 **14. Future Enhancements and Suggestions**
 
 🗺️ Include more records from all U.S. states for better geographic accuracy
+
 🤖 Apply machine learning models to predict complaint resolution outcomes
+
 📊 Build interactive dashboards using Power BI or Tableau
+
 ⚙️ Automate reporting process with scheduled Python scripts
+
 💬 Integrate NLP analysis on complaint reason text for deeper insights
 
-✅ 15. Conclusion
+✅ **15. Conclusion**
 
 The project successfully analyzed the Insurance Company Complaints dataset using Python and extracted useful insights about complaint patterns, resolution trends, and recovery behavior.
 
