@@ -195,28 +195,56 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ## 📸 Screenshots
 
-### Stage 1 – Data Loading & Initial EDA
+### Data Loading & Initial EDA
 
 | Screenshot | Description |
 |------------|-------------|
-| ![S1](screenshots/s1_load.png) | Dataset loaded from GitHub — Shape: (500, 12) |
-| ![S2](screenshots/s2_head.png) | First 5 rows using df.head() |
-| ![S3](screenshots/s3_info.png) | Column names, data types using df.info() |
-| ![S4](screenshots/s4_missing.png) | Missing values — 513 total across 6 columns |
-| ![S5](screenshots/s5_unique.png) | Unique values per column using df.nunique() |
+|| Dataset loaded from GitHub — Shape: (500, 12) |
+
+<img width="675" height="81" alt="image" src="https://github.com/user-attachments/assets/3a0ee5fa-94dc-428d-9439-9e49e0965662" />
+
+
+| | First 5 rows using df.head() |
+
+<img width="875" height="239" alt="image" src="https://github.com/user-attachments/assets/f07ad8cd-ac59-47c3-9717-3c636ca126e6" />
+
+
+|| Column names, data types using df.info() |
+
+<img width="875" height="241" alt="image" src="https://github.com/user-attachments/assets/3de0b765-98c3-4f48-aa40-b7ab8dff6598" />
+
+|| Missing values — 513 total across 6 columns |
+
+<img width="713" height="299" alt="image" src="https://github.com/user-attachments/assets/fd1f5126-e770-4b6c-a418-aef28c824d25" />
+
+| | Unique values per column using df.nunique() |
+
+<img width="620" height="151" alt="image" src="https://github.com/user-attachments/assets/57967618-99ed-4575-b425-c7f20b63a3c9" />
+
 
 ---
 
-### Stage 2 – Data Cleaning & Transformation
+### Data Cleaning & Transformation
 
 | Screenshot | Description |
 |------------|-------------|
-| ![S6](screenshots/s6_duplicate.png) | Duplicate check — 0 duplicates found |
-| ![S7](screenshots/s7_missing_before.png) | Missing values before handling — 513 total |
-| ![S8](screenshots/s8_missing_after.png) | Missing values after handling — 0 remaining |
-| ![S9](screenshots/s9_transform.png) | Data transformation — Shape updated to (500, 16) |
-| ![S10](screenshots/s10_feature.png) | Feature engineering — Final shape: (500, 20) |
-| ![S11](screenshots/s11_final_eda.png) | Final EDA — All columns, data types confirmed |
+| | Duplicate check — 0 duplicates found |
+
+
+| | Missing values before handling — 513 total |
+
+
+| | Missing values after handling — 0 remaining |
+
+
+| | Data transformation — Shape updated to (500, 16) |
+
+
+| | Feature engineering — Final shape: (500, 20) |
+
+
+| | Final EDA — All columns, data types confirmed |
+
 
 ---
 
