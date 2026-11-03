@@ -152,30 +152,11 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 | # | Chart Type | Library | Topic |
 |---|------------|---------|-------|
 | 1 | Bar Chart | Matplotlib | Top 10 Companies by Complaint Count |
-
-<img width="749" height="311" alt="image" src="https://github.com/user-attachments/assets/df618750-e47b-4e03-9793-e19fa9bb7bef" />
-
 | 2 | Pie Chart | Matplotlib | Coverage Type Distribution |
-
-<img width="546" height="323" alt="image" src="https://github.com/user-attachments/assets/9ffa9850-6612-41b7-a2d8-f2135c697bbe" />
-
 | 3 | Bar Chart | Matplotlib | Complaint Reasons Distribution |
-
-<img width="616" height="305" alt="image" src="https://github.com/user-attachments/assets/ad0ae984-5b80-44c4-9492-1ee205c78ede" />
-
 | 4 | Pie Chart | Matplotlib | Complaint Status Distribution |
-
-<img width="479" height="197" alt="image" src="https://github.com/user-attachments/assets/f2d04f65-95b6-47df-80ef-17812cc09705" />
-<img width="599" height="287" alt="image" src="https://github.com/user-attachments/assets/db4fccaf-ad0e-49d1-8664-78e56961580e" />
-
 | 5 | Line Chart | Matplotlib | Yearly Complaint Trend (2021–2026) |
-
-<img width="542" height="294" alt="image" src="https://github.com/user-attachments/assets/0e1cd93f-c6cc-4956-9c9e-f2c7513ea3b0" />
-
 | 6 | Histogram | Matplotlib | Resolution Days Distribution |
-
-<img width="590" height="305" alt="image" src="https://github.com/user-attachments/assets/e678ac05-226d-478d-a1f6-22dc0fbe5ef9" />
-
 | 7 | Count Plot | Seaborn | Complaint Status Count |
 | 8 | Box Plot | Seaborn | Resolution Days by Coverage Type |
 | 9 | Heatmap | Seaborn | Correlation Matrix |
@@ -276,19 +257,46 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 
 ---
 
-### Stage 3 – Visualizations
+### Visualizations
 
 | Screenshot | Chart | Key Finding |
-|------------|-------|-------------|
+
 |Bar – Top 10 Companies | Anthem Health Plans leads with 121 complaints (24.2%) |
+
+<img width="749" height="311" alt="image" src="https://github.com/user-attachments/assets/25412225-2f96-4885-8e30-5926f3702a75" />
+
+
 |Pie – Coverage Types | A & H dominates at 29.4% of complaints |
+
+<img width="546" height="323" alt="image" src="https://github.com/user-attachments/assets/aee17ec2-8eca-4157-8725-8a9b62a4b092" />
+
+
 |Bar – Complaint Reasons | Claim Handling = 75.4% of all complaints |
+
+<img width="616" height="305" alt="image" src="https://github.com/user-attachments/assets/d66494db-4094-4698-8190-a05b075c8e1d" />
+
 |Pie – Status | 97.2% complaints are Closed |
+
+<img width="479" height="197" alt="image" src="https://github.com/user-attachments/assets/725a1abb-b1ac-480a-b32b-1c91333bfbbe" />
+<img width="599" height="287" alt="image" src="https://github.com/user-attachments/assets/add3e0ca-227c-4659-93ee-c0e81f2842ad" />
+
+
 |Line – Yearly Trend | Complaints grew from 10 (2021) to 131 (2025) |
+
+<img width="542" height="294" alt="image" src="https://github.com/user-attachments/assets/bcff00bf-da1e-4ba9-8bc5-4496baa923db" />
+
 |Histogram – Resolution Days | Mean 42.06 days; max 880 days |
+
+
 |Count Plot – Status | 486 Closed vs 3 Open complaints |
+
+
 |Box Plot – Coverage | Individual Private Passenger slowest at 49.43 days |
+
+
 |Heatmap – Correlation | Resolution Days and Recovery are independent |
+
+
 |Bar – Avg Days by Reason | Marketing & Sales slowest at 50.50 days avg |
 
 ---
