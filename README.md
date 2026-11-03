@@ -152,11 +152,30 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 | # | Chart Type | Library | Topic |
 |---|------------|---------|-------|
 | 1 | Bar Chart | Matplotlib | Top 10 Companies by Complaint Count |
+
+<img width="749" height="311" alt="image" src="https://github.com/user-attachments/assets/df618750-e47b-4e03-9793-e19fa9bb7bef" />
+
 | 2 | Pie Chart | Matplotlib | Coverage Type Distribution |
+
+<img width="546" height="323" alt="image" src="https://github.com/user-attachments/assets/9ffa9850-6612-41b7-a2d8-f2135c697bbe" />
+
 | 3 | Bar Chart | Matplotlib | Complaint Reasons Distribution |
+
+<img width="616" height="305" alt="image" src="https://github.com/user-attachments/assets/ad0ae984-5b80-44c4-9492-1ee205c78ede" />
+
 | 4 | Pie Chart | Matplotlib | Complaint Status Distribution |
+
+<img width="479" height="197" alt="image" src="https://github.com/user-attachments/assets/f2d04f65-95b6-47df-80ef-17812cc09705" />
+<img width="599" height="287" alt="image" src="https://github.com/user-attachments/assets/db4fccaf-ad0e-49d1-8664-78e56961580e" />
+
 | 5 | Line Chart | Matplotlib | Yearly Complaint Trend (2021–2026) |
+
+<img width="542" height="294" alt="image" src="https://github.com/user-attachments/assets/0e1cd93f-c6cc-4956-9c9e-f2c7513ea3b0" />
+
 | 6 | Histogram | Matplotlib | Resolution Days Distribution |
+
+<img width="590" height="305" alt="image" src="https://github.com/user-attachments/assets/e678ac05-226d-478d-a1f6-22dc0fbe5ef9" />
+
 | 7 | Count Plot | Seaborn | Complaint Status Count |
 | 8 | Box Plot | Seaborn | Resolution Days by Coverage Type |
 | 9 | Heatmap | Seaborn | Correlation Matrix |
