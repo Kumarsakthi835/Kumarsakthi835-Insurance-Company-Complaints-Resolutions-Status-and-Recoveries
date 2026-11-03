@@ -230,21 +230,30 @@ Feature Engineering → Visualization → Key Insights → Conclusion
 |------------|-------------|
 | | Duplicate check — 0 duplicates found |
 
+<img width="665" height="52" alt="image" src="https://github.com/user-attachments/assets/d963595a-fb12-4a01-99e4-2ec398a06f12" />
+
 
 | | Missing values before handling — 513 total |
+
+<img width="706" height="165" alt="image" src="https://github.com/user-attachments/assets/8583e9ca-bd34-44e7-81cf-2e0256e24084" />
 
 
 | | Missing values after handling — 0 remaining |
 
+<img width="494" height="186" alt="image" src="https://github.com/user-attachments/assets/e4a2d13b-449b-41a9-812e-5c8a821faf18" />
 
 | | Data transformation — Shape updated to (500, 16) |
+
+<img width="677" height="137" alt="image" src="https://github.com/user-attachments/assets/cdc50682-768c-42ad-a21f-bd90e7b1ce8e" />
 
 
 | | Feature engineering — Final shape: (500, 20) |
 
+<img width="896" height="271" alt="image" src="https://github.com/user-attachments/assets/36c7b8ff-1301-49e8-b77b-ea16e57fc160" />
 
 | | Final EDA — All columns, data types confirmed |
 
+<img width="570" height="311" alt="image" src="https://github.com/user-attachments/assets/87d4f62d-6ee6-4501-bfb2-8c3c57fc0c5d" />
 
 ---
 
