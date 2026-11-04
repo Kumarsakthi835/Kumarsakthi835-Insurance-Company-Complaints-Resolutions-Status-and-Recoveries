@@ -180,12 +180,30 @@ EDA helped in understanding the distribution and characteristics of the complain
 
 | Screenshot | Description |
 
-| ![S6](screenshots/s6_duplicate.png) | Duplicate check — 0 duplicates found |
-| ![S7](screenshots/s7_missing_before.png) | Missing values before handling — 513 total |
-| ![S8](screenshots/s8_missing_after.png) | Missing values after handling — 0 remaining |
-| ![S9](screenshots/s9_transform.png) | Data transformation — Shape updated to (500, 16) |
-| ![S10](screenshots/s10_feature.png) | Feature engineering — Final shape: (500, 20) |
-| ![S11](screenshots/s11_final_eda.png) | Final EDA — All columns and data types confirmed |
+|Duplicate check — 0 duplicates found |
+
+<img width="665" height="52" alt="image" src="https://github.com/user-attachments/assets/cf75f5fe-dcb6-46cf-94c4-481c817055ee" />
+
+|Missing values before handling — 513 total |
+
+<img width="706" height="165" alt="image" src="https://github.com/user-attachments/assets/d92772b6-baee-44c2-9d19-2269cbe3ae40" />
+
+|Missing values after handling — 0 remaining |
+
+<img width="494" height="186" alt="image" src="https://github.com/user-attachments/assets/16bc2752-8050-461b-8c9b-52ba91149c3e" />
+
+|Data transformation — Shape updated to (500, 16) |
+
+<img width="761" height="143" alt="image" src="https://github.com/user-attachments/assets/3aea26f8-6e45-4a18-bb8d-8e917ec67915" />
+
+|Feature engineering — Final shape: (500, 20) |
+
+<img width="896" height="271" alt="image" src="https://github.com/user-attachments/assets/f462698f-60a9-4fc5-ac76-27896b1439dc" />
+
+|Final EDA — All columns and data types confirmed |
+
+<img width="570" height="311" alt="image" src="https://github.com/user-attachments/assets/22968a7e-bf88-4c9a-abc7-7d2a4e8f0243" />
+<img width="640" height="280" alt="image" src="https://github.com/user-attachments/assets/d7868bdd-7ea6-46eb-8d8b-cc388563ff2f" />
 
 ---
 
@@ -218,9 +236,10 @@ Univariate analysis was performed to analyze one variable at a time.
 
 **Analysis Performed:**
 
-**1. Top 10 Companies by Complaint Count** (with image)
+**1. Top 10 Companies by Complaint Count** 
 
-![V1](screenshots/v1_top_companies.png)
+<img width="749" height="311" alt="image" src="https://github.com/user-attachments/assets/11ff4ac6-6ae1-428a-8b7d-7d4600889e62" />
+
 
 - **Objective:** To identify which insurance companies received the highest number of complaints.
 - **Visualization:** Horizontal bar chart showing top 10 companies sorted by complaint count.
@@ -230,9 +249,10 @@ Univariate analysis was performed to analyze one variable at a time.
 
 ---
 
-**2. Coverage Type Distribution** (with image)
+**2. Coverage Type Distribution** 
 
-![V2](screenshots/v2_coverage_pie.png)
+<img width="546" height="323" alt="image" src="https://github.com/user-attachments/assets/c2563360-4d0e-4182-b5f9-2573168aec97" />
+
 
 - **Objective:** To understand which insurance coverage types receive the most complaints.
 - **Visualization:** Pie chart showing complaint proportion by coverage type.
@@ -242,9 +262,10 @@ Univariate analysis was performed to analyze one variable at a time.
 
 ---
 
-**3. Complaint Reasons Distribution** (with image)
+**3. Complaint Reasons Distribution** 
 
-![V3](screenshots/v3_reasons.png)
+<img width="616" height="305" alt="image" src="https://github.com/user-attachments/assets/c7623708-bc4c-4efb-804a-5415466e6406" />
+
 
 - **Objective:** To identify the most frequently occurring complaint reasons in insurance filings.
 - **Visualization:** Vertical bar chart showing complaint counts by reason category.
@@ -254,9 +275,12 @@ Univariate analysis was performed to analyze one variable at a time.
 
 ---
 
-**4. Complaint Status Distribution** (with image)
+**4. Complaint Status Distribution** 
 
-![V4](screenshots/v4_status_pie.png)
+<img width="479" height="197" alt="image" src="https://github.com/user-attachments/assets/814931ac-ade8-4d3c-955c-da6f1e2a8c77" />
+<img width="599" height="287" alt="image" src="https://github.com/user-attachments/assets/acc2e609-f125-4d28-9542-b6b819deae50" />
+
+
 
 - **Objective:** To monitor how many complaints are currently open vs closed.
 - **Visualization:** Pie chart showing proportion of Open vs Closed complaints.
@@ -272,9 +296,10 @@ Bivariate analysis was performed to study relationships between two variables.
 
 **Analysis Performed:**
 
-**5. Yearly Complaint Trend (2021–2026)** (with image)
+**5. Yearly Complaint Trend (2021–2026)** 
 
-![V5](screenshots/v5_yearly_trend.png)
+<img width="542" height="294" alt="image" src="https://github.com/user-attachments/assets/937ed43c-2dcf-4390-a27d-1b71362d9174" />
+
 
 - **Objective:** To analyze how the number of complaints has changed from 2021 to 2026.
 - **Visualization:** Line chart showing yearly complaint count trends over 6 years.
@@ -284,9 +309,10 @@ Bivariate analysis was performed to study relationships between two variables.
 
 ---
 
-**6. Resolution Days Distribution** (with image)
+**6. Resolution Days Distribution** 
 
-![V6](screenshots/v6_resolution_hist.png)
+<img width="590" height="305" alt="image" src="https://github.com/user-attachments/assets/8a235d54-cf10-4889-b96f-f502717f7f2a" />
+
 
 - **Objective:** To understand the distribution of time taken to resolve complaints.
 - **Visualization:** Histogram showing frequency of resolution day ranges.
@@ -296,9 +322,10 @@ Bivariate analysis was performed to study relationships between two variables.
 
 ---
 
-**7. Complaint Status Count** (with image)
+**7. Complaint Status Count** 
 
-![V7](screenshots/v7_status_count.png)
+<img width="647" height="320" alt="image" src="https://github.com/user-attachments/assets/5969d945-fdef-47bc-a503-0ae2d2473dc1" />
+
 
 - **Objective:** To compare the exact count of Open vs Closed complaints visually.
 - **Visualization:** Count plot showing bars for each complaint status category.
@@ -314,9 +341,10 @@ Multivariate analysis was used to analyze relationships among multiple variables
 
 **Analysis Performed:**
 
-**8. Resolution Days by Coverage Type** (with image)
+**8. Resolution Days by Coverage Type**
 
-![V8](screenshots/v8_boxplot.png)
+<img width="659" height="317" alt="image" src="https://github.com/user-attachments/assets/59780fad-f154-45e0-b1ff-7bf81eaaf86c" />
+
 
 - **Objective:** To compare resolution speed across different insurance coverage types.
 - **Visualization:** Box plot showing resolution day spread for each coverage category.
@@ -326,9 +354,10 @@ Multivariate analysis was used to analyze relationships among multiple variables
 
 ---
 
-**9. Correlation Matrix — Numerical Features** (with image)
+**9. Correlation Matrix — Numerical Features** 
 
-![V9](screenshots/v9_heatmap.png)
+<img width="524" height="247" alt="image" src="https://github.com/user-attachments/assets/b6135add-2151-4cb7-9262-a6d309ae6860" />
+
 
 - **Objective:** To identify statistical relationships between numerical variables in the dataset.
 - **Visualization:** Heatmap showing correlation coefficients between Resolution_Days, Recovery, Is_Recovered, and other numeric features.
@@ -338,9 +367,10 @@ Multivariate analysis was used to analyze relationships among multiple variables
 
 ---
 
-**10. Avg Resolution Days by Complaint Reason** (with image)
+**10. Avg Resolution Days by Complaint Reason**
 
-![V10](screenshots/v10_avg_days.png)
+<img width="584" height="288" alt="image" src="https://github.com/user-attachments/assets/2052d086-fa1d-4d20-9303-8bc7082e318e" />
+
 
 - **Objective:** To identify which complaint reasons take the longest average time to resolve.
 - **Visualization:** Horizontal bar chart showing average resolution days per complaint reason category.
@@ -350,11 +380,13 @@ Multivariate analysis was used to analyze relationships among multiple variables
 
 ---
 
-### Stage 4 – Key Insights Screenshot
+### Key Insights Screenshot
 
 | Screenshot | Description |
-|------------|-------------|
-| ![S12](screenshots/s12_insights.png) | Key insights summary — all 8 metrics printed in Colab output |
+
+<img width="611" height="332" alt="image" src="https://github.com/user-attachments/assets/8f1cc4ac-a9ac-477c-a55b-9f89f8b8449e" />
+
+| Key insights summary — all 8 metrics printed in Colab output |
 
 ---
 
