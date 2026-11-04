@@ -1,4 +1,4 @@
-# 🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python
+# 🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python (USA 2021–2026)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
@@ -149,58 +149,58 @@ Initial inspection included:
 
 EDA helped in understanding the distribution and characteristics of the complaint data.
 
-### Stage 1 – Data Loading & Initial EDA Screenshots
+### Data Loading & Initial EDA
 
-| Screenshot | Description |
+| Description |
 
-| Dataset loaded from GitHub — Shape: (500, 12) |
+**| Dataset loaded from GitHub — Shape: (500, 12) |**
 
 <img width="675" height="81" alt="image" src="https://github.com/user-attachments/assets/9e06cec7-edcc-4d65-af1e-47a1c05829b9" />
 
 
-| First 5 rows using df.head() |
+**| First 5 rows using df.head() |**
 
 <img width="875" height="239" alt="image" src="https://github.com/user-attachments/assets/4d419995-a1f8-4978-ad72-eecf8cd67978" />
 
 
-|Column names and data types using df.info() |
+**|Column names and data types using df.info() |**
 
 <img width="875" height="241" alt="image" src="https://github.com/user-attachments/assets/49d1f9c9-92b8-4d74-9f72-94adbfc78f84" />
 
-|Missing values — 513 total across 6 columns |
+**|Missing values — 513 total across 6 columns |**
 
 <img width="713" height="299" alt="image" src="https://github.com/user-attachments/assets/c98955e3-fc12-4539-a225-f9c686712ad1" />
 
 
-|Unique values per column using df.nunique() |
+**|Unique values per column using df.nunique() |**
 
 <img width="620" height="151" alt="image" src="https://github.com/user-attachments/assets/623d1004-5558-4784-b4d7-101a3a6de2e5" />
 
 ### Data Cleaning & Transformation Screenshots
 
-| Screenshot | Description |
+| Description |
 
-|Duplicate check — 0 duplicates found |
+**|Duplicate check — 0 duplicates found |**
 
 <img width="665" height="52" alt="image" src="https://github.com/user-attachments/assets/cf75f5fe-dcb6-46cf-94c4-481c817055ee" />
 
-|Missing values before handling — 513 total |
+**|Missing values before handling — 513 total |**
 
 <img width="706" height="165" alt="image" src="https://github.com/user-attachments/assets/d92772b6-baee-44c2-9d19-2269cbe3ae40" />
 
-|Missing values after handling — 0 remaining |
+**|Missing values after handling — 0 remaining |**
 
 <img width="494" height="186" alt="image" src="https://github.com/user-attachments/assets/16bc2752-8050-461b-8c9b-52ba91149c3e" />
 
-|Data transformation — Shape updated to (500, 16) |
+**|Data transformation — Shape updated to (500, 16) |**
 
 <img width="761" height="143" alt="image" src="https://github.com/user-attachments/assets/3aea26f8-6e45-4a18-bb8d-8e917ec67915" />
 
-|Feature engineering — Final shape: (500, 20) |
+**|Feature engineering — Final shape: (500, 20) |**
 
 <img width="896" height="271" alt="image" src="https://github.com/user-attachments/assets/f462698f-60a9-4fc5-ac76-27896b1439dc" />
 
-|Final EDA — All columns and data types confirmed |
+**|Final EDA — All columns and data types confirmed |**
 
 <img width="570" height="311" alt="image" src="https://github.com/user-attachments/assets/22968a7e-bf88-4c9a-abc7-7d2a4e8f0243" />
 <img width="640" height="280" alt="image" src="https://github.com/user-attachments/assets/d7868bdd-7ea6-46eb-8d8b-cc388563ff2f" />
@@ -500,6 +500,3 @@ Data Analytics — Entri Elevate
 - Used for **educational and analytical purposes only**
 - Original dataset: [Insurance Company Complaints, Resolutions, Status, and Recoveries](https://catalog.data.gov/dataset/insurance-company-complaints-resolutions-status-and-recoveries)
 
----
-
-*Project by: Kumar S | Data Analytics – Entri Elevate | Dataset Period: 2021–2026 | Records: 500 | Tools: Python, Pandas, NumPy, Matplotlib, Seaborn, Google Colab*
