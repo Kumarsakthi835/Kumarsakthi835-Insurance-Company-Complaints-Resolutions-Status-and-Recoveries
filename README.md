@@ -1,47 +1,39 @@
-                                 PROJECT TITLE
-  🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python (USA 2021–2026)
-
+📋 Copy All Text
+PROJECT TITLE
+🏥 Insurance Company Complaint Pattern & Resolution Analysis Using Python
 Python 3.x
-
 Pandas
-
 NumPy
-
 Matplotlib
-
 Seaborn
-
 Google Colab
-
 Status: Completed ✅
-
-📌 **1. Project Overview**
+📌 1. Project Overview
 
 This project focuses on analyzing an insurance company complaints dataset using Python to extract meaningful insights. The analysis includes data cleaning, exploratory data analysis (EDA), statistical analysis, and visualization to understand complaint patterns, resolution trends, and recovery behavior.
 
 The project aims to transform raw complaint data into useful information that supports better decision-making for insurance operations and customer service improvements.
 
-**The project follows a complete data analytics pipeline:**
+The project follows a complete data analytics pipeline:
 
 Data Loading → Initial EDA → Data Cleaning → Transformation → Feature Engineering → Visualization → Key Insights → Conclusion
-
 📂 2. Data Source
-**Dataset Name:** Insurance Company Complaints, Resolutions, Status, and Recoveries
-**Source:** U.S. Government Open Data Portal (data.gov)
-**Repository:** Kumar S – GitHub
-**File Type:** CSV
+Dataset Name: Insurance Company Complaints, Resolutions, Status, and Recoveries
+Source: U.S. Government Open Data Portal (data.gov)
+Repository: Kumar S – GitHub
+File Type: CSV
 Number of Records: 500 rows (sampled from 89,348 original records)
 Number of Attributes: 12 original columns
 
 The dataset contains information related to insurance complaints filed between 2021 and 2026, including complaint reasons, coverage types, resolution outcomes, and financial recovery amounts across the United States of America.
 
-❓**3. Problem Statement**
+❓ 3. Problem Statement
 
 Insurance companies receive thousands of complaints every year but often struggle to identify patterns in complaint types, resolution speed, and recovery rates. Without proper analysis, it is difficult to understand which complaint categories take longer to resolve and what factors influence recovery outcomes.
 
 This project aims to analyze the insurance complaint dataset and identify key factors influencing complaint resolution patterns and business recovery performance.
 
-🎯 **4. Objectives**
+🎯 4. Objectives
 To understand the dataset structure and complaint attributes
 To clean and prepare the data for analysis
 To handle missing values and duplicates
@@ -50,8 +42,7 @@ To engineer new features such as Resolution Days and Recovery Status
 To identify complaint patterns and resolution trends
 To create meaningful visualizations
 To generate actionable business insights
-
-📋 **5. Attribute (Column / Feature) Details**
+📋 5. Attribute (Column / Feature) Details
 #	Attribute Name	Data Type	Description
 1	Company	Object	Name of the insurance company
 2	File No.	Integer	Unique complaint file number
@@ -65,8 +56,7 @@ To generate actionable business insights
 10	Conclusion	Object	Final conclusion of complaint
 11	Recovery	Float	Amount recovered in USD
 12	Status	Object	Current complaint status
-
-🛠️ **6. Tools & Technologies**
+🛠️ 6. Tools & Technologies
 Python
 Pandas
 NumPy
