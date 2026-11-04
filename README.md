@@ -152,17 +152,34 @@ EDA helped in understanding the distribution and characteristics of the complain
 ### Stage 1 – Data Loading & Initial EDA Screenshots
 
 | Screenshot | Description |
-|------------|-------------|
-| ![S1](screenshots/s1_load.png) | Dataset loaded from GitHub — Shape: (500, 12) |
-| ![S2](screenshots/s2_head.png) | First 5 rows using df.head() |
-| ![S3](screenshots/s3_info.png) | Column names and data types using df.info() |
-| ![S4](screenshots/s4_missing.png) | Missing values — 513 total across 6 columns |
-| ![S5](screenshots/s5_unique.png) | Unique values per column using df.nunique() |
 
-### Stage 2 – Data Cleaning & Transformation Screenshots
+| Dataset loaded from GitHub — Shape: (500, 12) |
+
+<img width="675" height="81" alt="image" src="https://github.com/user-attachments/assets/9e06cec7-edcc-4d65-af1e-47a1c05829b9" />
+
+
+| First 5 rows using df.head() |
+
+<img width="875" height="239" alt="image" src="https://github.com/user-attachments/assets/4d419995-a1f8-4978-ad72-eecf8cd67978" />
+
+
+|Column names and data types using df.info() |
+
+<img width="875" height="241" alt="image" src="https://github.com/user-attachments/assets/49d1f9c9-92b8-4d74-9f72-94adbfc78f84" />
+
+|Missing values — 513 total across 6 columns |
+
+<img width="713" height="299" alt="image" src="https://github.com/user-attachments/assets/c98955e3-fc12-4539-a225-f9c686712ad1" />
+
+
+|Unique values per column using df.nunique() |
+
+<img width="620" height="151" alt="image" src="https://github.com/user-attachments/assets/623d1004-5558-4784-b4d7-101a3a6de2e5" />
+
+### Data Cleaning & Transformation Screenshots
 
 | Screenshot | Description |
-|------------|-------------|
+
 | ![S6](screenshots/s6_duplicate.png) | Duplicate check — 0 duplicates found |
 | ![S7](screenshots/s7_missing_before.png) | Missing values before handling — 513 total |
 | ![S8](screenshots/s8_missing_after.png) | Missing values after handling — 0 remaining |
